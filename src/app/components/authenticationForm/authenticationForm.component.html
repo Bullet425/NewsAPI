@@ -1,0 +1,12 @@
+<div class="form">
+  <p>The correct username is: javier</p>
+  <p>The correct password is: password</p>
+  <form [formGroup]="loginForm" (ngSubmit)="send(loginForm.value)">
+    Username:
+    <input type="text" class="formControl" formControlName="username" />
+    Password
+    <input type="password" class="formControl" formControlName="password" />
+    <button class="btn" type="submit">Login</button>
+  </form>
+  <p class="result">{{ result }}</p>
+</div>

@@ -1,0 +1,60 @@
+.listItems {
+  list-style: none;
+}
+
+.newsContainer {
+  background-color: #fefdfc;
+  border: 0.5rem #333 solid;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 4rem;
+  padding: 1rem 4rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 2rem;
+  padding: 0 4rem;
+}
+
+.url {
+  color: blue;
+  cursor: pointer;
+  padding: 0 4rem;
+  font-size: 1.2rem;
+}
+
+.imageContainer {
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.images {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.autor {
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+  width: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.publishAt {
+  font-size: 1.2em;
+  text-align: "center";
+  position: relative;
+  width: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}

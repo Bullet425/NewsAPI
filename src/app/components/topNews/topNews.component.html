@@ -1,0 +1,12 @@
+<li class="listItems" *ngFor="let item of data">
+  <div class="newsContainer">
+    <p class="title">{{ item.title }}</p>
+    <p class="description">{{ item.description }}</p>
+    <a class="url" href="{{ item.url }}" target="_blank">{{ item.url }}</a>
+    <div class="imageContainer">
+      <img class="images" src="{{ item.urlToImage }}" alt="{{ item.title }}" />
+    </div>
+    <p class="autor">Author: {{ item.author }}</p>
+    <p class="publishAt">{{ item.publishedAt }}</p>
+  </div>
+</li>

@@ -3,14 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopNews } from './components/topNews/topNews.component';
+import { AuthenticationForm } from './components/authenticationForm/authenticationForm.component';
+
+import { HttpClientModule } from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopNews,
+    AuthenticationForm
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
